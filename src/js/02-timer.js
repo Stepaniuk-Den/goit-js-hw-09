@@ -15,6 +15,7 @@ elements.startBtn.disabled = true;
 
 let choiseDate = null;
 let lastTime = null;
+let newTIme = null;
 
 const options = {
   enableTime: true,
