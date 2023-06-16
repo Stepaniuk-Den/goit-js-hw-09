@@ -38,6 +38,7 @@ flatpickr(elements.inputDate, options);
 function handlerClick() {
   const timerId = setInterval(() => {
     elements.startBtn.disabled = true;
+    elements.inputDate.disabled = true;
     lastTime = choiseDate - Date.now();
     if (lastTime > 0) {
       convertMs(lastTime);
